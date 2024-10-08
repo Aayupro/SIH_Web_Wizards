@@ -1,1 +1,77 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    < meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="/">
+            <img src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" alt="Brand logo">
+            <span class="brand-logo-name">GFG School</span>
+        </a>
+        <nav class="navbar">
+            <ul class="navbar-lists" id="myTopnav">
+                <li>
+                    <i class="fas fa-home"></i>
+                    <a class="navbar-link home-link" href="#">Home</a>
+                </li>
+                <li>
+                    <i class="fas fa-user"></i>
+                    <a class="navbar-link about-link" href="#about-us-section">About Us</a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <a class="navbar-link contact-link" href="#contact-form">Contact Us</a>
+                </li>
+                <li>
+                    <i class="fas fa-bullhorn"></i>
+                    <a class="navbar-link service-link" href="#notice-bord-sction">Notice Board</a>
+                </li>
+                <li>
+                    <i class="fas fa-map-marked-alt"></i>
+                    <a class="navbar-link contact-link" href="#campus-on-map">Our Campus</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="school-img-container">
+            <div class="img-container">
+                <img src="https://coworkingers.com/wp-content/uploads/2023/08/IMG_20210718_095744_524-min.jpg" alt="school img" class="school-img">
+                <h1 class="img-title">Welcome to Geeksforgeeks School</h1>
+            </div>
+        </div>
+        <section id="vision">
+            <h2 class="vision-heading">Our Vision</h2>
+            <p>At gfg, we envision a learning community where every student is inspired to reach their full potential. We strive to cultivate a nurturing environment that fosters curiosity, creativity, and critical thinking skills. Our aim is to empower students to become lifelong learners, compassionate leaders, and responsible global citizens. Through innovative teaching methods, personalized support, and a diverse range of opportunities</p>
+        </section>
+        <div class="main-notice-section" id="notice-bord-sction">
+            <div class="notice-container">
+                <div class="notice-bord">
+                    <h2 class="notice-bord-heading">Campus Notice Board</h2>
+                    <div>
+                        <ul>
+                            <li>
+                                <i>April 1, 2023:</i> Inauguration ceremony for the new academic year. <span class="new-text">New</span>
+                            </li>
+                            <li>
+                                <i>April 15, 2023:</i> Science fair showcasing innovative student projects. <span class="new-text">New</span>
+                            </li>
+                            <li>
+                                <i>April 30, 2023:</i> Cultural extravaganza featuring dance, music, and drama performances.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
